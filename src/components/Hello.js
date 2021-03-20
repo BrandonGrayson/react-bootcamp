@@ -2,9 +2,10 @@ import React from "react";
 
 class Hello extends React.Component {
     render() {
+        console.log(this.props);
         return (
             <div>
-                <h1>Hello from The Hello Component</h1>
+                <h1>Hello </h1>
             </div>
         )
         
